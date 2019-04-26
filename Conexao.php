@@ -33,5 +33,5 @@ $validar->execute(array($email));//Array serve para poder entrar na interrogaç�
 if ($validar->rowCount() == 0){//0 e para saber se existe
     $insert->execute();//Executa a query
 }else{
-    echo "Usuario com o email:$email já existe, tente outro.";
+    echo "Usuario com o email:$email já existe, tente outro email.";
 }
